@@ -1,0 +1,48 @@
+.teamCard{
+    width:250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 0px;
+   background-color: white;
+   border: 2px solid white;
+}
+.teamCard:hover{
+    border: 2px solid hotpink;
+    box-shadow: 10px 10px 15px hotpink;
+}
+.teamCard img{
+    width:200px;
+    padding:10px;
+}
+ 
+.teamCard button{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding:10px;
+    font-size: large;
+    border-radius:10px;
+    border: 1px solid white;
+    
+}
+
+.teamCard button:hover{
+    background-color:white;
+    color: hotpink;
+    border: 1px solid red;
+    opacity: 0.7;
+    
+}
+teamCard h2 ,p , button{
+    margin-top: 20px;
+}
+*:focus,
+*:active,
+a:active,
+a:focus,
+input:focus,
+input:active { 
+	outline:none;
+	outline: 0;
+}

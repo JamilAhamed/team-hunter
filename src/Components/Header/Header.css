@@ -1,0 +1,64 @@
+ .banner-container{
+    /* position: relative; */
+    height: 350px;
+    overflow: hidden;
+    background:url(../../Photo/background.png) no-repeat center;
+    background-size:cover;
+    opacity: 0.8;
+}
+
+.header{
+    width: 100%; 
+    box-sizing: border-box;
+     background-color:#fff; 
+     overflow: hidden;
+     text-align: right;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    margin-right: 30px;
+  }
+nav ul li a {
+    font-size:  17px;
+    color:#000;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:#17a2b8;
+}
+
+@media(max-width:900px){
+    .title{
+    font-size: 12px;
+  }
+
+nav ul{
+    width:100%;
+    background-color:#fff ;
+    position: absolute;
+    top:75px;
+    right: 0;
+    z-index: 1;
+}
+nav ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul li a {
+    color: #000;
+} 
+.menu-icon{
+    display: block;
+  }
+}
