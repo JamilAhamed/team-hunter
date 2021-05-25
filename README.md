@@ -1,6 +1,9 @@
 My websites Live link:- https://jamilsteamhunter.netlify.app/
+
+
 Features:
-1.Dynamic Data loaded from TheSportsDB website.
+
+1.Dynamic Data loaded from https://www.thesportsdb.com/api.php website.
 
 2.React Routing Features Fully works.
 
